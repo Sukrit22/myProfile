@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        background-color: white;
+      }
+
+      .title {
+        color: rgb(207, 26, 162);
+        font-size: 18px;
+      }
+      .tt {
+        color: rgb(184, 25, 144);
+        font-size: 17px;
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      .twi {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        background: linear-gradient(
+          124deg,
+          #4a2278,
+          #4f409d,
+          #8a41b6,
+          #c857bf,
+          #a2a0f3
+        );
+        background-size: 800% 800%;
+        z-index: -1;
+
+        -webkit-animation: rainbow 18s ease infinite;
+        -z-animation: rainbow 18s ease infinite;
+        -o-animation: rainbow 18s ease infinite;
+        animation: rainbow 18s ease infinite;
+      }
+
+      @-webkit-keyframes rainbow {
+        0% {
+          background-position: 0% 82%;
+        }
+        50% {
+          background-position: 100% 19%;
+        }
+        100% {
+          background-position: 0% 82%;
+        }
+      }
+      @-moz-keyframes rainbow {
+        0% {
+          background-position: 0% 82%;
+        }
+        50% {
+          background-position: 100% 19%;
+        }
+        100% {
+          background-position: 0% 82%;
+        }
+      }
+      @-o-keyframes rainbow {
+        0% {
+          background-position: 0% 82%;
+        }
+        50% {
+          background-position: 100% 19%;
+        }
+        100% {
+          background-position: 0% 82%;
+        }
+      }
+      @keyframes rainbow {
+        0% {
+          background-position: 0% 82%;
+        }
+        50% {
+          background-position: 100% 19%;
+        }
+        100% {
+          background-position: 0% 82%;
+        }
+      }
+
+      button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 22px;
+        color: black;
+      }
+
+      button:hover,
+      a:hover {
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="twi"></div>
+    <h2 style="text-align: center">My Profile Card</h2>
+    <div class="card">
+      <img src="pic.jpg" alt="62010956" style="width: 100%" />
+      <h1>Sukrit Jangwang</h1>
+      <p class="title">Computer Engineering</p>
+      <p class="tt">62010956, KMITL;</p>
+      <div style="margin: 24px 0">
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/Sukrit22AndFriends"
+          ><i class="fa fa-facebook"></i
+        ></a>
+      </div>
+      <a href="pinky.html"><p><button>Contact</button></p></a>
+    </div>
+  </body>
+</html>
